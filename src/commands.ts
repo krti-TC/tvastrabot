@@ -22,6 +22,11 @@ const commands: { [name: string]: { aliases?: string[]; description: string; for
     description: 'Mine for resources.',
     format: 'mine'
   },
+  'fight': {
+    aliases: ['to fight'],
+    description: 'Fight for resources.',
+    format: 'fight'
+  }
 }
 
 export default async function helpCommand(message: Message) {
